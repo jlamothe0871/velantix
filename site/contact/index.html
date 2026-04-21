@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Velantix</title>
+  <meta name="description" content="Contact Velantix to schedule a demo, discuss a partnership, or start your VMware exit assessment.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" type="image/png" href="../assets/logo/Velantix-logo.png">
+</head>
+<body>
+
+<header>
+  <a href="../index.html" class="nav-logo"><img src="../assets/logo/Velantix-logo.png" alt="Velantix Axiom"></a>
+  <nav>
+    <a href="../platform/index.html">Platform</a>
+    <a href="../solutions/index.html">Solutions</a>
+    <a href="../federal/index.html">Federal</a>
+    <a href="../partners/index.html">Partners</a>
+    <a href="../resources/index.html">Resources</a>
+    <a href="../company/index.html">Company</a>
+  </nav>
+  <div class="nav-actions">
+    <a href="#" class="btn-login">Login</a>
+    <a href="#contact-form" class="btn-primary">Get Started</a>
+  </div>
+</header>
+
+<main>
+
+<div class="page-hero" style="padding-bottom:60px;">
+  <div class="page-hero-bg"></div>
+  <span class="eyebrow">Contact Velantix</span>
+  <h1>Make the Right Move —<br><span class="cyan">Before You Make a Move.</span></h1>
+  <p class="lead">The data is complex. The path forward is clear. Tell us about your environment and we'll show you exactly what your transformation looks like.</p>
+</div>
+
+<!-- ─── CONTACT LAYOUT ─── -->
+<section class="section section-darker" id="contact-form">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;max-width:1100px;margin:0 auto;">
+
+    <!-- LEFT: FORM -->
+    <div>
+      <h3 style="margin-bottom:8px;">Start the Conversation</h3>
+      <p style="margin-bottom:32px;">Fill out the form and a member of our team will reach out within one business day.</p>
+
+      <form onsubmit="handleSubmit(event)">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div class="form-group">
+            <label>First Name *</label>
+            <input type="text" placeholder="Jeff" required>
+          </div>
+          <div class="form-group">
+            <label>Last Name *</label>
+            <input type="text" placeholder="Smith" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Work Email *</label>
+          <input type="email" placeholder="you@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label>Company / Organization *</label>
+          <input type="text" placeholder="Acme Corp" required>
+        </div>
+
+        <div class="form-group">
+          <label>Job Title</label>
+          <input type="text" placeholder="VP Infrastructure / CIO / Architect">
+        </div>
+
+        <div class="form-group">
+          <label>I am a...</label>
+          <select>
+            <option value="">Select your role</option>
+            <option>Enterprise IT / End Customer</option>
+            <option>Systems Integrator / SI</option>
+            <option>Managed Service Provider (MSP)</option>
+            <option>Value-Added Reseller (VAR)</option>
+            <option>Storage / Infrastructure Manufacturer</option>
+            <option>Federal / Government Agency</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Approximate VM Count</label>
+          <select>
+            <option value="">Select range</option>
+            <option>Under 100</option>
+            <option>100–500</option>
+            <option>500–1,000</option>
+            <option>1,000–5,000</option>
+            <option>5,000+</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>What are you looking for?</label>
+          <select>
+            <option value="">Select primary interest</option>
+            <option>VMware Exit Assessment</option>
+            <option>Platform Demo</option>
+            <option>Partner Program</option>
+            <option>Federal / Government Engagement</option>
+            <option>OEM / Manufacturer Partnership</option>
+            <option>General Inquiry</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Tell us about your environment or challenge</label>
+          <textarea placeholder="Describe your VMware environment, timeline, or what you're trying to accomplish..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary btn-lg" style="width:100%;justify-content:center;border:none;cursor:pointer;font-size:16px;">
+          Submit Request →
+        </button>
+
+        <p style="font-size:12px;margin-top:16px;text-align:center;color:var(--steel);">By submitting this form, you agree to our Privacy Policy. We never sell your data.</p>
+      </form>
+
+      <div id="form-success" style="display:none;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);border-radius:12px;padding:32px;text-align:center;margin-top:24px;">
+        <div style="font-size:48px;margin-bottom:16px;">✅</div>
+        <h3 style="margin-bottom:8px;">Request Received</h3>
+        <p>Thank you — we'll be in touch within one business day.</p>
+      </div>
+    </div>
+
+    <!-- RIGHT: INFO PANELS -->
+    <div style="display:flex;flex-direction:column;gap:24px;">
+
+      <div class="card" style="padding:32px;">
+        <h4 style="margin-bottom:16px;">What Happens Next</h4>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="min-width:28px;height:28px;background:rgba(34,211,238,0.1);border:1px solid rgba(34,211,238,0.2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--cyan);">1</div>
+            <div>
+              <div style="font-weight:600;font-size:14px;margin-bottom:4px;">We review your submission</div>
+              <div style="font-size:13px;color:var(--text-sub);">Within one business day, a team member reviews your request and environment details.</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="min-width:28px;height:28px;background:rgba(34,211,238,0.1);border:1px solid rgba(34,211,238,0.2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--cyan);">2</div>
+            <div>
+              <div style="font-weight:600;font-size:14px;margin-bottom:4px;">Schedule a discovery call</div>
+              <div style="font-size:13px;color:var(--text-sub);">We'll reach out to schedule a 30-minute conversation to understand your environment and goals.</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="min-width:28px;height:28px;background:rgba(34,211,238,0.1);border:1px solid rgba(34,211,238,0.2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--cyan);">3</div>
+            <div>
+              <div style="font-weight:600;font-size:14px;margin-bottom:4px;">See Axiom in action</div>
+              <div style="font-size:13px;color:var(--text-sub);">Live platform demo using your data or a sample environment — from upload to executive blueprint.</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="min-width:28px;height:28px;background:rgba(34,211,238,0.1);border:1px solid rgba(34,211,238,0.2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--cyan);">4</div>
+            <div>
+              <div style="font-weight:600;font-size:14px;margin-bottom:4px;">Receive your blueprint</div>
+              <div style="font-size:13px;color:var(--text-sub);">Your complete transformation blueprint — ready for executive review, partner handoff, or immediate execution.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="padding:32px;">
+        <h4 style="margin-bottom:16px;">Direct Contact</h4>
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;">
+            <span style="font-size:20px;">📧</span>
+            <a href="mailto:info@velantix.com" style="color:var(--cyan);">info@velantix.com</a>
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;">
+            <span style="font-size:20px;">📍</span>
+            <span style="color:var(--text-sub);">Nolanville, Texas · SDVOSB Certified</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;">
+            <span style="font-size:20px;">💼</span>
+            <a href="https://linkedin.com" target="_blank" style="color:var(--cyan);">Connect on LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="padding:32px;background:linear-gradient(135deg,rgba(37,99,235,0.1),rgba(34,211,238,0.05));border-color:rgba(37,99,235,0.25);">
+        <div class="sdvosb-badge" style="margin-bottom:16px;font-size:12px;padding:8px 14px;">
+          <span class="dot"></span>
+          SDVOSB — Veteran-Owned
+        </div>
+        <h4 style="margin-bottom:10px;">Federal Agencies &amp; Primes</h4>
+        <p style="font-size:14px;margin-bottom:16px;">Velantix is SDVOSB-certified and SAM.gov registered. Eligible for set-aside contracts and sole-source awards. Contact us for a capability statement or contracting vehicle overview.</p>
+        <a href="../federal/index.html" style="font-size:14px;font-weight:600;color:var(--cyan);">Federal Contracting Info →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── FAQ ─── -->
+<section class="section">
+  <div class="section-header">
+    <span class="section-label">Common Questions</span>
+    <h2>Before you reach out.</h2>
+  </div>
+
+  <div style="max-width:760px;margin:0 auto;">
+    <div class="faq-item open">
+      <div class="faq-q">What data do I need to get started? <span>+</span></div>
+      <div class="faq-a">All you need is an RVTools CSV export from your VMware environment. RVTools is a free utility available at robware.net. Optional enrichment data (IOPS, network usage, application tags) can improve classification accuracy but is not required for a full assessment.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How long does an assessment take? <span>+</span></div>
+      <div class="faq-a">Axiom processes 1,000–5,000 VMs in under 5 minutes. The full pipeline — normalization, classification, cost modeling, timeline, and AI narrative generation — runs automatically. You receive the executive PDF and technical dataset the same session.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is my infrastructure data secure? <span>+</span></div>
+      <div class="faq-a">Yes. Velantix processes your data with encrypted storage and strict API key protection. We do not retain customer infrastructure data after assessment completion. An on-premise deployment option is available for federal and security-sensitive environments.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is Axiom vendor-neutral? <span>+</span></div>
+      <div class="faq-a">100%. Axiom's recommendations are driven entirely by your infrastructure data — not by vendor relationships or preferred platforms. We support all major VMware exit destinations including OpenShift, Nutanix, Proxmox, and all major hyperscalers. You choose where you're going. We show you the optimal path.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What does the output look like? <span>+</span></div>
+      <div class="faq-a">Every assessment produces: (1) an executive PDF with AI-generated summary, risk analysis, TCO model, and transformation blueprint; (2) a full technical dataset with per-VM classification, confidence scores, and reason codes; and (3) an optional slide summary deck for stakeholder presentation.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can partners brand the output? <span>+</span></div>
+      <div class="faq-a">Yes. Certified Partner tier and above includes co-branded output options. OEM/Strategic partners have access to full white-label deliverables. Contact us to discuss partner program options.</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="../assets/logo/Velantix-logo.png" alt="Velantix Axiom">
+      <p>The AI-powered infrastructure transformation intelligence platform. Clarity, strategy, and execution — before you make a move.</p>
+      <div class="social-links"><a href="#" title="LinkedIn">in</a><a href="#" title="X">𝕏</a><a href="#" title="YouTube">▶</a></div>
+    </div>
+    <div class="footer-col"><h5>Platform</h5><a href="../platform/index.html">Axiom Overview</a><a href="../platform/index.html#capabilities">Capabilities</a><a href="../platform/index.html#pricing">Pricing</a></div>
+    <div class="footer-col"><h5>Solutions</h5><a href="../solutions/index.html#industry">By Industry</a><a href="../solutions/index.html#usecase">By Use Case</a><a href="../federal/index.html">Federal</a></div>
+    <div class="footer-col"><h5>Company</h5><a href="../company/index.html">About Us</a><a href="../company/index.html#careers">Careers</a><a href="index.html">Contact</a></div>
+    <div class="footer-col"><h5>Resources</h5><a href="../resources/index.html#blog">Blog</a><a href="../resources/index.html#whitepapers">Whitepapers</a><a href="../partners/index.html">Partners</a></div>
+  </div>
+  <div class="footer-bottom">
+    <p style="color:var(--steel);">© 2026 Velantix, Inc. All rights reserved. SDVOSB Certified.</p>
+    <div class="footer-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Security</a></div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('scroll', () => {
+    document.querySelector('header').style.boxShadow = window.scrollY > 40 ? '0 4px 40px rgba(0,0,0,0.4)' : '';
+  });
+
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+      q.querySelector('span').textContent = item.classList.contains('open') ? '−' : '+';
+    });
+  });
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    document.querySelector('form').style.display = 'none';
+    document.getElementById('form-success').style.display = 'block';
+  }
+</script>
+
+</body>
+</html>
